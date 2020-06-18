@@ -1,12 +1,19 @@
-<?php  
+<?php 
 
 
-$line2 = readline("Hoe oud ben je? ");
-readline_add_history($line);
-if ($line2 >= 16.50) {
-	echo "Je mag beginnen met rijlessen!";
+
+
+        $line1 = readline("Hoe oud ben je?");
+
+
+if ($line1 < 16.50) {
+            echo "Helaas, je mag nog niet beginnen met rijlessen";
 } else {
-	echo "Helaas, je mag nog niet beginnen met rijlessen";
+            echo "Je mag beginnen met rijlessen";
 }
+
+
+
+
 
 ?>
