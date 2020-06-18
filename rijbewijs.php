@@ -11,5 +11,4 @@
 		echo "Helaas, je mag nog niet beginnen met rijlessen";
 	}
 
-
 ?>
